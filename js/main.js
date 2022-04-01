@@ -2,8 +2,8 @@ const object = [
   {
     id: 1,
     imgs: [
-      // '../videos/data.mp4',
       'https://picsum.photos/id/30/300/350',
+      '../videos/data.mp4',
     ],
     title: "Muhammadali Eshonqulov bilan suhbat",
     desc: "Najot Talim jamoasi oz oquvchilari va kuzatuvchilari uchun foydali bolgan suhbatlarni uyushtirishda davom etadi. Bu galgi mehmonimiz «Osmondagi bolalar» loyihasining 10-son mehmoni, «Yuksalish» liderlar maktabi asoschisi, xalqaro toifadagi iqtisodchi Muhammadali Eshonqulov boladi",
@@ -15,10 +15,10 @@ const object = [
     id: 2,
     imgs: [
       'https://picsum.photos/id/341/300/350',
-      // '../videos/data.mp4',
+      '../videos/data-two.mp4',
     ],
-    title: "Dizayn foundation bosqichi kirish imtihonining natijalarini e'lon qilamiz",
-    desc: "Najot Talim jamoasi oz oquvchilari va kuzatuvchilari uchun foydali bolgan suhbatlarni uyushtirishda davom etadi. Bu galgi mehmonimiz «Osmondagi bolalar» loyihasining 10-son mehmoni, «Yuksalish» liderlar maktabi asoschisi, xalqaro toifadagi iqtisodchi Muhammadali Eshonqulov boladi",
+    title: "Tipografika bo'yicha foydali maslahatlar",
+    desc: "Tipografika nima? Grafik dizayn sohasida ishlatiladigan bu so'zni umumiy ma'noda yozuv shriftlari bilan samarali ishlash, deb aytsak bo'ladi. Ya'ni dizaynda mavzuga aloqador shrift turi, o'lchami va joylashuvini to'g'ri tanlash san'atidir 😊😊",
     likes: 200,
     comment: 18,
     save: false,
@@ -30,7 +30,7 @@ const object = [
       'https://picsum.photos/id/89/300/350',
       // 'https://picsum.photos/id/100/300/350',
     ],
-    title: "Dasturchilar uchun o'z sohalariga oid foydali kitoblar to'plami",
+    title: "Intizom bu - muvaffaqiyat",
     desc: "Yodingizda bo'lsa, avvalroq grafik dizaynerlar o'qishi kerak bo'lgan kitoblar to'plamini tavsiya qilgan edik. Ushbu postning izohlar qismida kuzatuvchilarimiz tomonidan dasturchilar uchun ham kitob tavsiya qilishimiz so'ralgan edi Obunachilarimizning fikrlarini inobatga olgan holda, bu gal dasturchilar o'qishi kerak bo'lgan kitoblar to'plamini tavsiya qilishga qaror qildik. Ushbu kasb egalari uchun o'z sohalariga doir ushbu kitoblar foydali bo'ladi, degan umiddamiz. 😊",
     likes: 200,
     comment: 90,
