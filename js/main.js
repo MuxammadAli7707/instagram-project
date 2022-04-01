@@ -28,7 +28,8 @@ const object = [
     id: 3,
     imgs: [
       'https://picsum.photos/id/89/300/350',
-      // 'https://picsum.photos/id/100/300/350',
+      'https://picsum.photos/id/100/300/350',
+      'https://picsum.photos/id/700/300/350',
     ],
     title: "Intizom bu - muvaffaqiyat",
     desc: "Yodingizda bo'lsa, avvalroq grafik dizaynerlar o'qishi kerak bo'lgan kitoblar to'plamini tavsiya qilgan edik. Ushbu postning izohlar qismida kuzatuvchilarimiz tomonidan dasturchilar uchun ham kitob tavsiya qilishimiz so'ralgan edi Obunachilarimizning fikrlarini inobatga olgan holda, bu gal dasturchilar o'qishi kerak bo'lgan kitoblar to'plamini tavsiya qilishga qaror qildik. Ushbu kasb egalari uchun o'z sohalariga doir ushbu kitoblar foydali bo'ladi, degan umiddamiz. 😊",
@@ -41,8 +42,8 @@ const object = [
     id: 4,
     imgs: [
       'https://picsum.photos/id/10/300/350',
-      // '../videos/data-two.mp4',
-      // 'https://picsum.photos/id/90/300/350',
+      '../videos/data-two.mp4',
+      'https://picsum.photos/id/90/300/350',
     ],
     title: "Grafik dizaynerlarga ham oson emas!",
     desc: "Har bir kasbda bo'lgani kabi grafik dizayn sohasining ham o'ziga yarasha qiyinchiliklari va sabr qilishi kerak bo'lgan nuqtalari mavjud. Bulardan eng asosiysi mijozlar bilan ishlash boʻlsa kerak. O'ylaymizki, bu gapimizni barcha grafik dizaynerlar ham tasdiqlashadi. 😉🎯 Shunday qilib, bugun dizayner va mijoz o'rtasidagi ayrim tushunmovchiliklar haqida suhbat qilamiz.",
@@ -55,10 +56,8 @@ const object = [
     id: 5,
     imgs: [
       'https://picsum.photos/id/950/300/350',
-      // 'https://picsum.photos/id/140/300/350',
-      // 'https://picsum.photos/id/160/300/350',
-      // 'https://picsum.photos/id/170/300/350',
-      // 'https://picsum.photos/id/180/300/350',
+      'https://picsum.photos/id/140/300/350',
+      'https://picsum.photos/id/160/300/350',
     ],
     title: "Ta'til kunlarini maroqli o'tkazing",
     desc: "Xabaringiz bor, markazimiz o'quvchilari uchun 20-21-22-mart sanalari bahorgi ta'til kunlari deb e'lon qilingan edi.Kuzatuvchilarimiz va o'quvchilarimizning ta'til kunlarini mazmunli o'tkazishlari uchun markazimizda bo'lib o'tgan so'nggi master-klass videolarini tavsiya qilishga qaror qildik. O'qish va ish bilan bo'lib, premyeralarni o'tkazib yuborgan bo'lsangiz, ushbu ta'til kunlari ajoyib imkoniyat. 😉",
@@ -70,6 +69,8 @@ const object = [
   {
     id: 6,
     imgs: [
+      'https://picsum.photos/id/170/300/350',
+      'https://picsum.photos/id/180/300/350',
       'https://picsum.photos/id/70/300/350'
     ],
     title: "Muhammadali Eshonqulov bilan suhbat",

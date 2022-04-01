@@ -39,7 +39,28 @@ function showIt(array, num){
           <div class="modal-body">
             <div class="d-flex col-12">
               <div class="modal__imgbox col-6">
-                <img class="modal-img" src="${item.imgs}" alt="img">
+               
+                <div id="carouselExampleControls${idxs}" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="modal-img" src="${item.imgs[0]}" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="modal-img" src="${item.imgs[1]}" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="modal-img" src="${item.imgs[2]}" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls${idxs}" data-bs-slide="prev">
+                    <span class="carusel__ikon" aria-hidden="true"><i class='bx bxs-chevron-left'></i></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls${idxs}" data-bs-slide="next">
+                    <span class="carusel__ikon" aria-hidden="true"><i class='bx bx-chevron-right'></i></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
               </div>
               <div class="modal-info d-flex flex-column col-6">
               <div class="modal__wrapper d-flex align-items-center justify-content-between">
